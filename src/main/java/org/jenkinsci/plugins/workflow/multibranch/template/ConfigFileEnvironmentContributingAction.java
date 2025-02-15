@@ -2,7 +2,9 @@ package org.jenkinsci.plugins.workflow.multibranch.template;
 
 import hudson.EnvVars;
 import hudson.Extension;
-import hudson.model.*;
+import hudson.model.EnvironmentContributingAction;
+import hudson.model.InvisibleAction;
+import hudson.model.Run;
 
 import javax.annotation.Nonnull;
 
